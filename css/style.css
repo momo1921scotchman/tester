@@ -1,0 +1,122 @@
+/* Website Styles */
+
+* {
+    font-size: 100%;
+    margin: 0;
+    line-height: 2;
+    box-sizing: border-box;
+}
+
+img {
+    width: 350px;
+}
+
+body {
+    background-color: #ffdfe7;
+    color: #1e0714;
+    font-family: arial;
+    font-size: 14px;
+    background-image: url(sunflower.jpg);
+}
+
+h1 {
+    color: #ff91af;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 55px; 
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h4, h5, h6 {
+    font-weight: 700;
+}
+
+header, footer {
+    background-color: #FFBC8F;
+}
+
+header, section, footer {
+    border: 1px solid pink;
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+    width: 80%;
+}
+
+p {
+    line-height: 1;
+    background-image: none;
+    background-color: transparent;
+}
+
+nav ul {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+    background: none;
+    color: #ff91af;
+    font-size: 16px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover { 
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: #ff91af;
+}
+
+.trees {
+    text-align: center;
+}
+
+.top {
+    font-size: 21pt;
+    color: red;
+    text-decoration: line-through;
+}
+
+#gibberish {
+    background-color: rgb(255, 237, 237);
+    color: rgb(20, 0, 0);
+}
+
+.container {
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    background-image: url(../img/sakura.webp);
+}
+
+.banner { 
+    background-image: url(../img/milkyway.jpg);
+    background-size: cover;
+}
